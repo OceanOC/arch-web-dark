@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "ArchWikiDark",
+  "version": "1.0",
+
+  "description": "Force dark mode on anything related to archlinux.org.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.archlinux.org/*"],
+      "js": ["dark.js"]
+    }
+  ]
+}
