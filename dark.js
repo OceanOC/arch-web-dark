@@ -85,15 +85,6 @@ if (optionElements != null){
 	});
 }
 
-const inputElements = document.querySelectorAll('input');
-if (inputElements != null) {
-	inputElements.forEach(inputs => {
-		inputs.style.color = 'white';
-		inputs.style.backgroundColor = 'black';
-		inputs.style.border = '3px solid #191919';
-	});
-}
-
 const codeElement = document.querySelectorAll('code');
 if (codeElement != null){
 	codeElement.forEach(code_element => {
